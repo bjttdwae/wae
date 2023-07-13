@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+     <style>
+          .color-block {
+               display: flex;
+               align-items: center;
+               margin-bottom: 10px;
+          }
+
+          .color {
+               width: 300px;
+               height: 50px;
+               margin-right: 10px;
+          }
+
+          .color-code {
+               font-family: "Roboto", sans-serif;
+               margin-right: 100px;
+               font-size: 20px;
+          }
+
+          .color-name {
+               font-family: "Lato", sans-serif;
+               font-style: italic;
+               font-size: 20px;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="color-block">
+          <div class="color" style="background-color: #FFFDD0;"></div>
+          <div class="color-code">#FFFDD0</div>
+          <div class="color-name">Cornsilk</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #F5F5DC;"></div>
+          <div class="color-code">#F5F5DC</div>
+          <div class="color-name">Beige</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #CCFFFF;"></div>
+          <div class="color-code">#CCFFFF</div>
+          <div class="color-name">Pale Blue</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #EFAF8E;"></div>
+          <div class="color-code">#EFAF8E</div>
+          <div class="color-name">DarkSalmon</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #D2B48C;"></div>
+          <div class="color-code">#D2B48C</div>
+          <div class="color-name">Tan</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #8A9A5B;"></div>
+          <div class="color-code">#8A9A5B</div>
+          <div class="color-name">Olive</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #556B2F;"></div>
+          <div class="color-code">#556B2F</div>
+          <div class="color-name">DarkOliveGreen</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #014421;"></div>
+          <div class="color-code">#014421</div>
+          <div class="color-name">DarkGreen</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #0000FF;"></div>
+          <div class="color-code">#0000FF</div>
+          <div class="color-name">Blue</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #000080;"></div>
+          <div class="color-code">#000080</div>
+          <div class="color-name">Navy</div>
+     </div>
+     <div class="color-block">
+          <div class="color" style="background-color: #3D2B1F;"></div>
+          <div class="color-code">#3D2B1F</div>
+          <div class="color-name">Bistre</div>
+     </div>
+</body>
+
+</html>
