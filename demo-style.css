@@ -64,7 +64,15 @@
  }
 
  .footer {
-      background-color: blue;
-      height: 150px;
+      display: grid;
+      background-color: black;
+      height: 100px;
       width: 100%;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50px 50px;
+      grid-template-areas:
+           "name tel"
+           "email address";
+      place-items: center;
+      color: white;
  }
