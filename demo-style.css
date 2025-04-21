@@ -20,30 +20,40 @@
  }
 
  .header {
-      background-color: red;
       height: 150px;
       width: 100%;
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 40% 60%;
       grid-template-rows: 100%;
       grid-template-areas: "logo menu";
  }
 
  .logo {
-      background-color: green;
       height: 100%;
       width: 100%;
       display: grid;
+      place-content: center;
  }
 
  .menu {
-      background-color: yellow;
+      display: grid;
       height: 100%;
       width: 100%;
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 100%;
-      grid-template-areas: "menu1 menu2 menu3 menu4 menu5";
+      grid-template-columns: repeat(5, 15fr);
+      grid-template-rows: 50%;
+      grid-template-areas: "opt";
+      place-content: center;
 
+ }
+
+ .opt {
+      display: grid;
+      background-color: lightblue;
+      place-content: space-around;
+      border: 1px solid blue;
+      text-decoration: none;
+      height: 50%;
+      width: 80%;
  }
 
  .main {
