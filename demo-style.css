@@ -11,16 +11,25 @@
       margin-top: 20px;
  }
 
+ .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 94%
+ }
+
  .header {
       background-color: red;
       height: 150px;
       width: 100%;
  }
 
- .container {
+ .main {
       background-color: white;
       height: 300px;
       width: 100%;
+      min-width: 300px;
  }
 
  .footer {
