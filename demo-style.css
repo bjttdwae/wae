@@ -23,6 +23,27 @@
       background-color: red;
       height: 150px;
       width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100%;
+      grid-template-areas: "logo menu";
+ }
+
+ .logo {
+      background-color: green;
+      height: 100%;
+      width: 100%;
+      display: grid;
+ }
+
+ .menu {
+      background-color: yellow;
+      height: 100%;
+      width: 100%;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 100%;
+      grid-template-areas: "menu1 menu2 menu3 menu4 menu5";
+
  }
 
  .main {
